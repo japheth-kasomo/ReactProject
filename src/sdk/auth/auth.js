@@ -3,7 +3,7 @@ import { client } from "../../sdk/client";
 
 export const login = async (email, password) => {
   const response = await axios.post(
-    "http://164.90.152.6/api/v1/auth/login/",
+    "https://164.90.152.6/api/v1/auth/login/",
     {
       email,
       password,
