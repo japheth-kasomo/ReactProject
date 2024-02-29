@@ -8,7 +8,7 @@ import LogoutTimer from './utils/LogoutTimer';
 function App() {
   return (
     <>
-      <LogoutTimer timeoutInMinutes={0.5} /> {/* Adjust timeout as needed */}
+      <LogoutTimer timeoutInMinutes={2} /> {/* Adjust timeout as needed */}
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />

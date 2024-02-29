@@ -31,7 +31,7 @@ const Login = () => {
       if (result?.status === true) {
         // Directly navigate to "/dashboard"
         navigate("/dashboard");
-        toast.success("Welcome to Fleet");
+        toast.success("Login successful");
       } else {
         // Handle invalid credentials or other login errors
         toast.error(result?.message);

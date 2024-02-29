@@ -8,6 +8,7 @@ import user from "../assets/container.png";
 import logoPic from "../assets/fleet-1.png";
 import logo from "../assets/fleet-2.png";
 import SideBar from "./SideBar";
+import ClickProfile from "./profile";
 
 const Layout = () => {
   // react hook
@@ -103,12 +104,8 @@ const Layout = () => {
                     </div>
                   </button>
 
-                  <div>
-                    <img
-                      src={user}
-                      alt=""
-                      className="w-[40px] h-[40px] rounded-full"
-                    />
+                  <div className="justify-center">
+                    <ClickProfile />
                   </div>
                 </div>
               </div>
